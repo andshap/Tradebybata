@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="190dp"
+    android:layout_height="247dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp">
+    
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="9dp">
+        
+        <ImageView
+            android:id="@+id/item_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/discount"
+            android:layout_width="50dp"
+            android:layout_height="17dp"
+            android:layout_below="@id/card_view"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corner_15dp_red"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="50dp"
+            android:layout_height="17dp"
+            android:layout_below="@id/card_view"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="145dp"
+            android:background="@drawable/rounded_corner_15dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="87dp"
+            android:layout_height="36dp"
+            android:layout_below="@id/card_view"
+            android:layout_marginStart="11sp"
+            android:layout_marginTop="175dp"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="43dp"
+            android:layout_height="14dp"
+            android:layout_below="@id/card_view"
+            android:layout_marginStart="11sp"
+            android:layout_marginTop="225dp"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_plus"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="202dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_favorite_circle"
+            android:layout_marginStart="117dp"
+            android:layout_marginTop="206dp"/>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
+

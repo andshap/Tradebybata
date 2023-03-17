@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label"><font color='#FF000000'>Trade by </font><font color='#4E55D7'>bata</font></string>
+    <string name="sign_in">Sign in</string>
+    <string name="all_fields_should_be_filled">All fields should be filled</string>
+    <string name="profile_exists">This profile is already exists</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="email_is_not_in_format">Email is not in the suitable format</string>
+    <string name="email">Email</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="log_in">Log in</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="sign_in_with_apple">Sign in with Apple</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="wrong_name_or_password">Wrong name or password</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="profile">Profile</string>
+    <string name="profile_name">Profile name</string>
+    <string name="change_photo">Change photo</string>
+    <string name="upload_item">Upload item</string>
+    <string name="trade_store">Trade store</string>
+    <string name="payment_method">Payment method</string>
+    <string name="balance">Balance</string>
+    <string name="trade_history">Trade history</string>
+    <string name="restore_purchase">Restore Purchase</string>
+    <string name="help">Help</string>
+    <string name="log_out">Log out</string>
+    <string name="home">Home</string>
+    <string name="favorite">Favorite</string>
+    <string name="basket">Basket</string>
+    <string name="chat">Chat</string>
+    <string name="search">What are you looking for ?</string>
+    <string name="latest">Latest</string>
+    <string name="flash_sale">Flash Sale</string>
+    <string name="view_all">View all</string>
+    <string name="phones">Phones</string>
+    <string name="headphones">Headphones</string>
+    <string name="games">Games</string>
+    <string name="cars">Cars</string>
+    <string name="furniture">Furniture</string>
+    <string name="kids">Kids</string>
+    <string name="back_button">Back button</string>
+    <string name="forward_button">Forward button</string>
+</resources>

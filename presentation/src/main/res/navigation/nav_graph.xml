@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/signInFragment">
+
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.effectivem.android.presentation.register.SignInFragment"
+        android:label="SignInFragment" >
+        <action
+            android:id="@+id/open_login"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/open_profile"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.effectivem.android.presentation.login.LoginFragment"
+        android:label="LoginFragment" >
+        <action
+            android:id="@+id/open_profile"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.effectivem.android.presentation.profile.ProfileFragment"
+        android:label="ProfileFragment" >
+        <action
+            android:id="@+id/back_to_signin"
+            app:destination="@id/signInFragment" />
+        <argument
+            android:name="first_name"
+            app:argType="string" />
+        <action
+            android:id="@+id/tab_bar_show_page1"
+            app:destination="@id/page1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/page1Fragment"
+        android:name="com.effectivem.android.presentation.page1.Page1Fragment"
+        android:label="Page1Fragment" >
+        <action
+            android:id="@+id/tab_bar_show_profile"
+            app:destination="@id/profileFragment" />
+        <argument
+            android:name="firstName"
+            app:argType="string" />
+    </fragment>
+</navigation>
